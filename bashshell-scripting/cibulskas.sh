@@ -10,6 +10,6 @@ echo "Creating folder name as : $SURNAME"
 mkdir ./$SURNAME
 echo "New folder created at:$PWD/$SURNAME"
 #COPY FILE
-echo "Copying file: passwd to foldernamed $SURNAME "
+echo "Copying file: passwd to folder named $SURNAME "
 cd/etc/passwd ~/$SURNAME
 echo "File passwd copied to $PWD/$SURNAME"
